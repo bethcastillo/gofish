@@ -1,0 +1,34 @@
+.fishDetails {
+  margin: 50px 50px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.fishHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fish {
+  width: 20%;
+}
+
+.fishPic
+{
+  width: 150px;
+  margin: 20px;
+}
+
+.fishName {
+  width: 80%;
+  padding-left: 20px;
+  color:rgb(2, 92, 151);
+}
+
+.description, .calories, .fat {
+  width: 80%;
+  padding: 10px 20px;
+}

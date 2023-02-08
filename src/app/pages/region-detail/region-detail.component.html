@@ -1,0 +1,16 @@
+<div *ngFor="let fish of fishDetails">
+
+  <div class="fishDetails">
+    <div class="fishHeader">
+      <div class="fish">
+        <img class="fishPic" src="{{fish.imageUrl}}" alt="{{fish.fishName}}">
+      </div>
+      <div class="fishName"><strong>{{fish.fishName}}</strong></div>
+   </div>
+     <div class="description">{{fish.description}}</div>
+      <div class="calories"><strong>Calories Per Serving:</strong> {{fish.caloriesPerServing}}</div>
+      <div class="fat"><strong>Fat Per Serving</strong> {{fish.fatPerServing}}</div>
+
+  </div>
+
+</div>

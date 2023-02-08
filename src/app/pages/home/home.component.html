@@ -1,0 +1,9 @@
+<div class="regions">
+  <div class="card" *ngFor="let region of regionalData">
+    <div class="region">{{region.region}}</div>
+    <div class="perServingLabel">Average Per Serving</div>
+    <div class="content"><strong>Calories:</strong> {{region.averageCalories | number : '1.2-2'}}</div>
+    <div class="content"><strong>Fat:</strong> {{region.averageFat | number : '1.2-2'}}</div>
+  </div>
+
+</div>

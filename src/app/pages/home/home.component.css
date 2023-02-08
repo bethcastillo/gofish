@@ -1,0 +1,38 @@
+.regions {
+  width: 80vw;
+  display: flex;
+  margin-top: 100px
+}
+
+.card
+ {
+  width: 320px;
+  min-height: 180px;
+  padding: 0;
+  margin: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+ }
+
+.region {
+  background-color: rgb(206, 217, 228);
+  border: thin solid silver;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.perServingLabel {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.content {
+  text-align: center;
+  padding: 3px;
+}
